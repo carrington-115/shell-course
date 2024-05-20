@@ -28,4 +28,10 @@ echo 'hello world'
 
 ```
 
-2.
+2. **file.sh and bash file.sh**: To create a bash file, we use the **.sh** extension. Then to run the shell file,
+
+```bash
+bash file.sh
+```
+
+3.
