@@ -34,4 +34,25 @@ echo 'hello world'
 bash file.sh
 ```
 
-3.
+3. To automatically run the file in the shell by passing it simply using the path, we can do the following:
+
+- First get the shell type by running
+
+```bash
+echo $SHELL
+```
+
+- Copy the output and at the top `file.sh`, we can add the `OUTPUT`
+
+```bash
+#!<OUTPUT>
+.....
+```
+
+- Then we give the file permission by running
+
+```bash
+chmod u+x file.sh
+```
+
+- To execute the file we can now run the path of the file e.g. `../file.sh`, if it is the valid location of the file will run the file.
