@@ -8,9 +8,9 @@
 4. Create your branch: `git branch <branch-name>`, and switch to the branch: `git checkout <branch-name>`
 5. Add feature and commit your changes in the following steps
 
-``
+```bash
 git add .
 git commit -m "commit message"
 git push -u origin <branch-name>
 
-``
+```
