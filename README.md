@@ -14,3 +14,18 @@ git commit -m "commit message"
 git push -u origin <branch-name>
 
 ```
+
+## Notes
+
+- Python is a better choice for advance scripting especially in frameworks like ansible
+
+### Basic commands
+
+1. **echo**: This is used to display content
+
+```bash
+echo 'hello world'
+
+```
+
+2.
