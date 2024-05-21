@@ -106,3 +106,13 @@ ls -la > ./logs/filelists.txt
 ```bash
 echo hello world >> ./logs/filelists.txt
 ```
+
+9. **`<` command**: We use this to feed data to a command script. For example in modifying the word count command
+
+```bash
+wc -w ./logs/listlogs.txt
+# output: 32 ./logs/listlogs.txt
+
+wc -w < ./logs/listlogs.txt
+# output: 32
+```
