@@ -134,3 +134,13 @@ EOF
 ```bash
 wc -w <<< 'Hello there Mark Carrington'
 ```
+
+10. **Test operators**: They are used to verify the validity of a script and return `true` or `false`. `true` is denoted as `0` (zero) and `false` as `1` (one).
+
+```bash
+[ hello = hello ]
+echo $?
+
+# $? is used to return the output of the last command (execos)
+
+```
