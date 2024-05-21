@@ -1,0 +1,20 @@
+total 74
+drwxr-xr-x 1 Tosh7 197121     0 May 21 00:31 .
+drwxr-xr-x 1 Tosh7 197121     0 May 21 00:14 ..
+drwxr-xr-x 1 Tosh7 197121     0 May 21 22:52 .git
+-rw-r--r-- 1 Tosh7 197121    19 May 21 00:20 .gitignore
+-rw-r--r-- 1 Tosh7 197121  2370 May 21 22:57 README.md
+drwxr-xr-x 1 Tosh7 197121     0 May 21 00:31 backend
+drwxr-xr-x 1 Tosh7 197121     0 May 21 22:57 logs
+drwxr-xr-x 1 Tosh7 197121     0 May 21 00:16 node_modules
+-rw-r--r-- 1 Tosh7 197121 42056 May 21 00:16 package-lock.json
+-rw-r--r-- 1 Tosh7 197121   326 May 21 00:16 package.json
+drwxr-xr-x 1 Tosh7 197121     0 May 21 22:47 scripts
+total 65
+-rw-r--r-- 1 Tosh7 197121  2552 May 21 22:59 README.md
+drwxr-xr-x 1 Tosh7 197121     0 May 21 00:31 backend
+drwxr-xr-x 1 Tosh7 197121     0 May 21 22:57 logs
+drwxr-xr-x 1 Tosh7 197121     0 May 21 00:16 node_modules
+-rw-r--r-- 1 Tosh7 197121 42056 May 21 00:16 package-lock.json
+-rw-r--r-- 1 Tosh7 197121   326 May 21 00:16 package.json
+drwxr-xr-x 1 Tosh7 197121     0 May 21 22:47 scripts

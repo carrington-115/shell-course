@@ -76,7 +76,7 @@ echo Hello $NAME
 read VAR_NAME
 ```
 
-6. A positional argument is an argument that is placed behind the script that is to be ran. It goes from `1` because `0` is for the shell. for example if the script below is ran
+6. **Positional arguments**: A positional argument is an argument that is placed behind the script that is to be ran. It goes from `1` because `0` is for the shell. for example if the script below is ran
 
 ```bash
 echo Hello $1 $2
@@ -87,4 +87,22 @@ echo Hello $1 $2
 # output
 # Hello mark carrington
 
+```
+
+7. **Piping**: They are use to perform multiple commands. This is the pipe command `|`. For example
+
+```bash
+echo Hello World! > hello.txt | cat hello.txt
+```
+
+8. **Output redirections**: This is used to log outputs of a script to a file. This is usefule for logs. We use the `>` or the `>>` sign for this purpose. For example
+
+```bash
+ls -la > ./logs/filelists.txt
+```
+
+- If we perform this with the `>` many times, it will be over-written. To just append new logs, we use the `>>` command.
+
+```bash
+echo hello world >> ./logs/filelists.txt
 ```
