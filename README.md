@@ -144,3 +144,27 @@ echo $?
 # $? is used to return the output of the last command (execos)
 
 ```
+
+11. **Conditional statements \***(if / elif / else)**\***: With the shell `if / elif / else` syntax, we can run conditional scripts in bash. A great way to test conditional scritpts is by using position arguments. For example
+
+```bash
+if [ ${1,,} = mark ]; then
+    echo "I know you Mark"
+elif [ ${1,,} = help ]; then
+    echo "How can I help?"
+else
+    echo "Why are you here?"
+fi
+```
+
+- The `${1,,}` is to enter conditional arguments that ignore the case type. To run the script
+
+```bash
+# give permissions
+chmod u+x ../file.sh
+
+# run
+../file.sh mark
+
+#output: I know you Mark
+```
