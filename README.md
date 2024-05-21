@@ -116,3 +116,21 @@ wc -w ./logs/listlogs.txt
 wc -w < ./logs/listlogs.txt
 # output: 32
 ```
+
+- **`<<` command**: This is a great way to supply multiple lines of text to a command.
+
+```bash
+cat << EOF
+Hello world!
+How are you doing
+Mark?
+EOF
+
+# multiline operators
+```
+
+- **`<<<` command**: This is used to supply single strings to a command.
+
+```bash
+wc -w <<< 'Hello there Mark Carrington'
+```
