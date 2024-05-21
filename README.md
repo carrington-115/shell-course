@@ -56,3 +56,22 @@ chmod u+x file.sh
 ```
 
 - To execute the file we can now run the path of the file e.g. `../file.sh`, if it is the valid location of the file will run the file.
+
+4. **Defining Variables:** We define a variable by giving the name of the variable and assigning its value. For example
+
+```bash
+NAME=MARK
+```
+
+- To get the **_variable_**, We use the dollar sign with the name of the variable. For example:
+
+```bash
+echo $NAME
+echo Hello $NAME
+```
+
+5. We can collect data from the user using the `read` command.
+
+```bash
+read VAR_NAME
+```
