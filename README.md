@@ -75,3 +75,16 @@ echo Hello $NAME
 ```bash
 read VAR_NAME
 ```
+
+6. A positional argument is an argument that is placed behind the script that is to be ran. It goes from `1` because `0` is for the shell. for example if the script below is ran
+
+```bash
+echo Hello $1 $2
+
+# shell command
+# <file-url> (e.g ../file.sh) mark carrington
+
+# output
+# Hello mark carrington
+
+```
