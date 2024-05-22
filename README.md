@@ -186,7 +186,17 @@ case ${1,,} in
 esac
 
 # To run the code: ../file.sh mark
-#outut: I know you
+# outut: I know you
 ```
 
-13.
+13. **Arrays**: We can initialise arrays in shell and access the values using the method below:
+
+```bash
+NUMBERS=(1 2 3 4 5)
+
+# print the whole array
+echo ${NUMBERS[@]}
+
+# PRINT THE VALUE 3
+echo ${NUMBERS[2]}
+```
