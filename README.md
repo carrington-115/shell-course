@@ -168,3 +168,22 @@ chmod u+x ../file.sh
 
 #output: I know you Mark
 ```
+
+12. **Case Statements**: They are used when dealing with multiple conditions
+
+```bash
+case ${1,,} in
+    mark | administrator)
+        echo "I know you"
+        ;;
+    help)
+        echo "What do you want to know"
+        ;;
+    *)
+        echo "I do not know you"
+        ;;
+
+esac
+```
+
+13.
