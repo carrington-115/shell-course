@@ -224,4 +224,22 @@ printname(){
     LASTNAME=CARRINGTON CHEI
     echo $FIRSTNAME $LASTNAME
 }
+
+printname
+```
+
+- In shell, when we define variables in the functions, they will be available in the whole. This can cause some problems in larger scripts. We have to make sure that all function variables are local within the function. To solve this problem, we just add the `local` keyword before defining the variable
+
+```bash
+name=mark
+echo name
+printname(){
+    local name=carrington
+    echo name
+
+}
+
+printname
+echo name
+
 ```

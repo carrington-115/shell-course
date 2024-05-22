@@ -1,8 +1,12 @@
 #!/usr/bin/bash.exe
+up=30
+since=7:35
+
+echo $up $since
 
 showuptime(){
-    up=$(uptime -p | cut -c4-)
-    since=$(uptime -s)
+    local up=21
+    local since=7:38
     cat << EOF
 ----
 This machine was oned at ${up}
@@ -13,3 +17,4 @@ EOF
 }
 
 showuptime
+echo $up $since
