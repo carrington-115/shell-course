@@ -1,8 +1,8 @@
 const express = require("express");
+const { initialPage } = require("./router/controllers");
 const app = express();
+const router = app.router();
 
-app.get("/", (req, res) => {
-  res.status(200).json({ success: true, data: [] });
-});
+router.get("/", initialPage);
 
 app.listen(5000, () => console.log("server is running"));
