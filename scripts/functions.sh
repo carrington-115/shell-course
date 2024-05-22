@@ -1,4 +1,5 @@
 #!/usr/bin/bash.exe
+
 up=30
 since=7:35
 

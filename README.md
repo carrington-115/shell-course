@@ -243,3 +243,13 @@ printname
 echo name
 
 ```
+
+- We can pass positional arguments to functions
+
+```bash
+printname(){
+    echo $1
+}
+
+printname mark
+```
