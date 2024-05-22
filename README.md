@@ -184,6 +184,9 @@ case ${1,,} in
         ;;
 
 esac
+
+# To run the code: ../file.sh mark
+#outut: I know you
 ```
 
 13.
