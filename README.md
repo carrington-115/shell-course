@@ -214,3 +214,14 @@ NAMES=(MARK FRU CARRINGTON CHEI)
 for name in ${NAMES[@]}; do echo name | wc -c; done
 
 ```
+
+15. **Functions**: It is used to order code in blocks. For example
+
+```bash
+# for example: function to print a name
+printname(){
+    FIRSTNAME=FRU MARK
+    LASTNAME=CARRINGTON CHEI
+    echo $FIRSTNAME $LASTNAME
+}
+```
