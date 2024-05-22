@@ -253,3 +253,15 @@ printname(){
 
 printname mark
 ```
+
+16. Exit codes:
+
+```bash
+showname(){
+    echo $1
+    if [ ${1,,} =mark ]; then
+        return 0
+    else
+        return 1
+}
+```
