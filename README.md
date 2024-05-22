@@ -200,3 +200,17 @@ echo ${NUMBERS[@]}
 # PRINT THE VALUE 3
 echo ${NUMBERS[2]}
 ```
+
+14. **For Loops**: We can use for loop to loop over the array data and perform operations. For example
+
+```bash
+
+# example: 1
+NUMBERS=(1 2 3 4 5)
+for items in ${NUMBERS[@]}; do echo $items; done
+
+# example: 2
+NAMES=(MARK FRU CARRINGTON CHEI)
+for name in ${NAMES[@]}; do echo name | wc -c; done
+
+```
