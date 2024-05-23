@@ -270,6 +270,19 @@ showname $1
 if [ $? = 1 ] then
     echo "This is an unknown user"
 fi
+```
+
+17. **AWK**: it is one of the most of the useful tool in bash scripting. It is used to filter parts of a file in order to extract content in the file. To use **_awk_**, we can filter a file or we can filter parts of a command output by piping that output in awk. We can use awk on any file format to get specific content with positional arguments.
+
+```bash
+# extracting specific content
+awk '{print $1}' file.txt # this extracts the word on first position
+awk -F, '{print $1}' file.csv # to extract data from csv file
+
+echo "Hello there, how are you" | awk '{print $3}' # output: how
+echo "Hello there: Mark Carrington" | awk -F: '{print $2}' # output: Mark Carrington
+echo "Hello there: Mark Carrington" | awk -F: '{print $2}' | cut -c2 # output: M
+echo "Hello there: Mark Carrington" | awk -F: '{print $2}' | cut -c2- # output: ark Carrington
 
 
 ```
