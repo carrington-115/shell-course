@@ -286,3 +286,14 @@ echo "Hello there: Mark Carrington" | awk -F: '{print $2}' | cut -c2- # output: 
 
 
 ```
+
+18. **SED**: They are used to modify values in text file using regular expressions
+
+- We can use SED in modes, it can be to replace or substitute content in a file
+- While performing operations with sed, we can also keep an original copy of the file we are dealing with by performing some operations
+
+```bash
+# substituting mode
+sed 's/hi/hello/g' file.txt # s/hi/hello/g - means s for 'substitute' the word 'hi' with 'hello' and g means globally in file.txt
+sed -i.ORIGINAL 's/hi/hello/g' file.txt
+```
